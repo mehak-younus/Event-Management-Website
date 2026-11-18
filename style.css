@@ -1,0 +1,487 @@
+nav a {
+color: white;
+text-decoration: none;
+transition: 0.3s;
+font-size: 16px;
+font-weight: 500;
+gap: 20px;
+}
+header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: goldenrod;
+}
+
+nav a:hover{
+    color: gold;
+}
+.navbar{
+     z-index: 1000;
+     position: sticky;
+  top: 0;
+  width: 100%;
+
+}
+nav {
+    display: flex;
+    gap: 25px;
+    position: sticky;
+    padding: 0px;
+
+}
+header button {
+background-color: gold;
+color: black;
+padding: 10px;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+header button:hover {
+background-color: goldenrod;
+transform: scale(1.15);
+
+}
+header{
+    border-bottom: 2px solid gold;
+
+}
+.hero {
+
+   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('event.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+    text-align: left;
+    padding-left: 60px;
+    background-attachment: fixed;
+   
+}
+.hero h1 {
+    font-size: 50px;
+    color: gold;
+    font-weight: bold;
+    margin-top: 130px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.hero p {
+    font-size: 18px;
+    color: white;
+   line-height: 1.6;
+
+}
+.tagline{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+  position: relative;
+  top: 120px;
+}
+@media (max-width: 768px ) {
+    .hero {
+        min-height: 500px;
+    }
+    .hero h1 {
+font-size: 32px;
+    }
+    .herp p {
+        font-size: 15px;
+    }
+    .hero button {
+        padding: 10px 18px;
+    }
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button2{
+width: 190px;
+padding: 10px;
+color: black;
+background-color: gold;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 25px;
+position: relative;
+top: 40px;
+}
+.button3{
+    width: 190px;
+padding: 10px;
+color: white;
+background-color:transparent;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 25px;
+position: relative;
+top: 40px;
+border: 2px solid gold;
+transition: all 0.3s ease;
+}
+.button2:hover {
+    background-color:goldenrod ;
+    cursor: pointer;
+}
+
+.button-group{
+    display: flex;
+    gap: 20px;
+}
+.button3:hover {
+
+background-color: gold;
+color: black;
+cursor: pointer;
+}
+.about{
+background-color: #1a1916;
+
+}
+
+
+
+.aboutline{
+    color: goldenrod;
+}
+.abouth1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+   
+}
+.head2{
+    color:goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+ 
+}
+.aboutp{
+    font-family: Arial, Helvetica, sans-serif;
+    color: goldenrod;
+    margin-top:-30px;
+    font-size: 15px;
+}
+
+.button4{
+    color:black;
+    background-color: goldenrod;
+    width: 210px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    margin-left: 260px;
+    margin-top: 60px;
+}
+.button4:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+
+.service{
+   background-color:#090909; 
+
+}
+h2:hover{
+    cursor: pointer;
+    color: goldenrod;
+}
+button:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.15);
+}
+.cards1{
+    background-color: #1a1916;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+
+    transition: all 0.3s ease;
+}
+.cards1:hover{
+     transform: scale(1.10);
+         cursor: pointer;
+}
+.card2{
+    background-color: #1a1916;
+        transition: all 0.3s ease;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+.card2:hover{
+     transform: scale(1.10);
+         cursor: pointer;
+}
+.card3{
+     background-color: #1a1916;
+        transition: all 0.3s ease;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+.card3:hover{
+     transform: scale(1.10);
+         cursor: pointer;
+}
+    
+.card4{
+     background-color: #1a1916;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+      transition: all 0.3s ease;
+}
+.card4:hover{
+     transform: scale(1.10);
+         cursor: pointer;
+}
+   
+.card5{
+     background-color: #1a1916;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+      transition: all 0.3s ease;
+}
+.card5:hover{
+     transform: scale(1.10);
+         cursor: pointer;
+}
+   
+.card6{
+     background-color: #1a1916;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+      transition: all 0.3s ease;
+}
+.card6:hover{
+     transform: scale(1.10);
+         cursor: pointer;
+}
+   
+html{
+    scroll-behavior: smooth;
+}
+
+.gallerysec{
+    background-color:#090909;
+}
+.gallerysec:hover{
+    cursor: pointer;
+}
+
+.words{
+    width: 1350px;
+    height: 540px;
+    background-color:#1a1916;
+}
+hr{
+    padding-top: 0;
+    margin-top: 0;
+    color: rgb(230, 180, 56);
+    box-shadow: inset;
+
+}
+.words1{
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.quete{
+ color:goldenrod;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 40px;
+}
+.words2{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -60px;
+}
+.words3{
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.words4{
+display: flex;
+    justify-content: center;
+    color:rgb(196, 186, 186);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.bottomhr{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: goldenrod;
+    box-shadow: inset;
+
+}
+
+.contact{
+    background-color: #090909;
+    width: 1350px;
+    height: 600px;
+
+}
+.conp{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    
+}
+.conh1{
+    color:rgb(216, 156, 4);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 65px;
+    
+}
+.conp2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:70px ;
+}
+.conp3{
+   color: rgb(180, 170, 170);
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 70px;
+}
+.conp4{
+    color: rgb(180, 170, 170);
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 70px;
+}
+
+.conp5{
+    color: rgb(180, 170, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px; 
+}
+/* .form{
+width: 500px;
+height: 450px;
+background-color: #1a1916;
+margin-left: 700px;
+margin-top: -300px;
+
+} */
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+/* Main Black Div */
+.contact-container {
+    background-color: #111111; /* Black background */
+    color: #ffffff;            /* White text */
+    padding: 35px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    margin-left: 750px;
+margin-top: -450px;
+}
+
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+/* Input fields aur Textarea ka style */
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #222222; /* Dark grey input box */
+    border: 1px solid #333333;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* Jab user click kare to border highlight ho */
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color:gold;
+}
+
+/* Submit Button */
+.contactbutton {
+    width: 100%;
+    padding: 12px;
+    background-color:goldenrod;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:goldenrod;
+}
+
+
