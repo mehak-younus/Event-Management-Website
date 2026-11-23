@@ -15,7 +15,7 @@ header h2 {
 nav a:hover{
     color: gold;
 }
-.navbar{
+.header{
      z-index: 1000;
      position: sticky;
   top: 0;
